@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+    <title>O Processo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'styleprocesso.css') }}">
+</head>
+<body>
+    <header class=" cabecalho">
+        <link rel="shortcut icon" href="static\img\logo.svg" >
+        <img class="cabecalho-imagem-logo" src="static\img\logo.svg" alt="Logo do Site">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item-home" href="{{ url_for('homepage') }}">Home</a>
+            <a class="cabecalho-menu-item-processo" href="{{ url_for('projeto') }}">O Processo</a>
+            <a class="cabecalho-menu-item-projeto" href="{{ url_for('processo') }}">O Projeto</a>
+            <a class="cabecalho-menu-item-quemsomos" href="{{ url_for('sobre') }}">Quem Somos?</a>
+            <a class="cabecalho-menu-item-fontes" href="{{ url_for('fontes') }}">Fontes</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">O Processo do Trabalho</h1>
+                <p class="conteudo-principal-escrito-p1">aaaaaaaaaaaaa</p>
+                <p class="conteudo-principal-escrito-p2">sssssssssssss</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape-escrito">ACESSO À &nbsp<span style="color: #314A72;">INTERNET</span>&nbsp NO <span style="color: #314A72;">&nbsp MUNDO</span></p>
+    </footer>
+</body>
+</html>
