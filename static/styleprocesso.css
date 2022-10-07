@@ -6,175 +6,85 @@
     box-sizing: border-box;
     text-decoration: none;
     background: #E7ECF4;
+    height: 100%;
 }
 
-.cabecalho {
-    box-sizing:border-box;
-    position: absolute;
-    width: 1366px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main{
+    padding:10px;
+    padding-bottom: 60px;
+}
+
+.cabecalho{
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
     background: rgba(48, 95, 170, 0.13);
     border-bottom: 2px solid #D2D2D2;
 }
 
-.cabecalho-menu {
-    
-    display: flex;
-    gap: 32px;
-}
-
 .cabecalho-imagem-logo{
-    position: absolute;
-    width: 91px;
-    height: 69px;
-    left: 14px;
-    top: 6px; 
+    height: 70px;
     background: none;
 }
-
-.cabecalho-menu-item-home {
-    position: absolute;
-    width: 55px;
-    height: 26px;
-    left: 249px;
-    top: 24px;
-    
+ 
+.cabecalho-menu {
+    display:flex;
+    gap: 110px;
+    padding: 25px;
+    background: none;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 3px;
+    font-size: 17px;
+    line-height: 0px;
     
-    /* or 12% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-    color: #383737;
-    background: none;
 }
 
-.cabecalho-menu-item-projeto {
-    position: absolute;
-    width: 90px;
-    height: 25px;
-    left: 451px;
-    top: 25px;
-    
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 3px;
-    
-    /* or 12% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
+.cabecalho-menu-item-home{
     color: #383737;
-    background: none;
 }
 
-.cabecalho-menu-item-processo {
-    position: absolute;
-    width: 106px;
-    height: 29px;
-    left: 670px;
-    top: 23px;
-    
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 3px;
-    
-    /* or 12% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
+.cabecalho-menu-item-processo{
     color: #383737;
-    background: none;
 }
 
-
-.cabecalho-menu-item-quemsomos {
-    position: absolute;
-    width: 130px;
-    height: 25px;
-    left: 935px;
-    top: 25px;
-    
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 3px;
-    
-    /* or 12% */
-    display: flex;
-    align-items: center;
-    text-align: center;
+.cabecalho-menu-item-projeto{
     color: #383737;
-    background: none;
+}
+
+.cabecalho-menu-item-quemsomos{
+    color: #383737;
 }
 
 .cabecalho-menu-item-fontes{
-    position: absolute;
-    width: 55px;
-    height: 29px;
-    left: 1225px;
-    top: 23px;
-    
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 3px;
-    
-    /* or 12% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
     color: #383737;
-    background: none;
-
 }
 
 .rodape{
-    box-sizing: border-box;
-
     position: absolute;
-    width: 1366px;
     height: 60px;
-    left: 0px;
-    top: 547px;
-    
+    width:100%;
+    bottom:0;
+    display:flex;
+    justify-content: center;
     background: rgba(48, 95, 170, 0.13);
-    border-top: 2px solid #D2D2D2;   
+    border-top: 2px solid #D2D2D2;
 }
 
 .rodape-escrito{
-    position: absolute;
-    width: 489.89px;
-    height: 56.48px;
-    left: calc(50% - 489.89px/2 + 101px);
-    
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 3px;
-    
-    /* or 11%*/
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-    color: #464444;
+    font-size: 14px;
+    line-height: 0px;
     background: none;
-}
+    padding: 28px;
+
+}     

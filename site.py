@@ -12,11 +12,11 @@ def homepage():
     return render_template('homepage.html')
 
 @app.route('/o-projeto')
-def processo():
+def projeto():
     return render_template('o-projeto.html')
 
 @app.route('/o-processo')
-def projeto():
+def processo():
     return render_template('o-processo.html')
 
 @app.route('/quem-somos')

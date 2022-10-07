@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="{{ url_for('static', filename= 'stylehome.css') }}">
 </head>
 <body>
-    <header class=" cabecalho">
+    <header class="cabecalho">
         <link rel="shortcut icon" href="static\img\logo.svg" >
         <img class="cabecalho-imagem-logo" src="static\img\logo.svg" alt="Logo do Site">
         <nav class="cabecalho-menu">
             <a class="cabecalho-menu-item-home" href="{{ url_for('homepage') }}">Home</a>
-            <a class="cabecalho-menu-item-processo" href="{{ url_for('projeto') }}">O Processo</a>
-            <a class="cabecalho-menu-item-projeto" href="{{ url_for('processo') }}">O Projeto</a>
+            <a class="cabecalho-menu-item-processo" href="{{ url_for('processo') }}">O Processo</a>
+            <a class="cabecalho-menu-item-projeto" href="{{ url_for('projeto') }}">O Projeto</a>
             <a class="cabecalho-menu-item-quemsomos" href="{{ url_for('sobre') }}">Quem Somos?</a>
             <a class="cabecalho-menu-item-fontes" href="{{ url_for('fontes') }}">Fontes</a>
             
@@ -23,18 +23,19 @@
 
     <main>
         <section class="conteudo-principal">
+            <img class="conteudo-principal-icone" src="static\img\icone.svg" alt="Ícone do Site">
             <div class="conteudo-principal-escrito">
-                <!-- <h1 class="conteudo-principal-escrito-titulo">O Acesso da Internet No Mundo</h1>
-                <p class="conteudo-principal-escrito-p1">lalalalalala</p>
-                <p class="conteudo-principal-escrito-p2">mmmmmmmmmmm</p>
-                <a class="conteudo-principal-escrito-botao" href="{{ url_for('projeto') }}">Ir ao Projeto</a> -->
+                <h1 class="conteudo-principal-escrito-titulo">Home</h1>
+                <p class="conteudo-principal-escrito-p1">De acordo com a  Secretária-Geral Adjunto da ONU Amina Mohammed: “3,7 bilhões de pessoas, a maioria mulheres, e a maioria nos países em desenvolvimento, ainda estão offline. A crise do COVID-19 destacou essa disparidade.  Sem ação decisiva, a divisão digital se tornará a nova face da desigualdade”.</p>
+                <p class="conteudo-principal-escrito-p2">Nesse trabalho, vamos nos aprofundar sobre o desigual acesso à internet ao redor do mundo, que acaba criando um abismo ainda maior entre países desenvolvidos e países emergentes, abrangendo suas causas e consequências. Além de expor diversos aspectos sociais de cada país e por meio de análises gráficas e insights.</p>
+                <a class="conteudo-principal-escrito-botao" href="{{ url_for('projeto') }}">Ir ao Projeto</a>
             </div>
         </section>
 
     </main>
 
     <footer class="rodape">
-        <p class="rodape-escrito">ACESSO À &nbsp<span style="color: #314A72;">INTERNET</span>&nbsp NO <span style="color: #314A72;">&nbsp MUNDO</span></p>
+        <p class="rodape-escrito">ACESSO À &nbsp<span style="color: #314A72; background:none" >INTERNET</span>&nbsp NO <span style="color: #314A72; background:none">&nbsp MUNDO</span></p>
     </footer>
 </body>
 </html>
