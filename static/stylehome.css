@@ -138,6 +138,10 @@ main{
 
 }
 
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(92, 110, 136, 0.555);
+    }
+
 .rodape{
     position: absolute;
     height: 60px;
