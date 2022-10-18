@@ -79,7 +79,7 @@ main{
 .conteudo-principal-escrito-titulo{
     display:flex;
     justify-content: left;
-    padding: 25px;
+    padding: 23px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -139,7 +139,7 @@ main{
 }
 
 .conteudo-principal-escrito-botao:hover {
-    background-color: rgba(92, 110, 136, 0.555);
+    background-color: #2e6b7eaf;
     }
 
 .rodape{
