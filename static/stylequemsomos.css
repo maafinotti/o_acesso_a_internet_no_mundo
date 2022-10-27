@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu');
 
 * {
     margin: 0;
@@ -6,18 +6,20 @@
     box-sizing: border-box;
     text-decoration: none;
     background: #E7ECF4;
-    height: 100%;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
+.pagina{
+    position: relative;
+    min-height: 150%;
+ }
 
-main{
-    padding:10px;
+.conteudo-principal{
     padding-bottom: 60px;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
 }
 
 .cabecalho{
@@ -68,8 +70,8 @@ main{
     color: #383737;
 }
 
-.brasao-puc{
-    position: absolute;
+ .brasao-puc{
+    position: relative;
     width: 211px;
     height: 337px;
     left: 68px;
@@ -78,69 +80,178 @@ main{
 
 .conteudo-principal-escrito-titulo{
     display:flex;
-    justify-content: left;
-    padding: 25px;
+    padding: 30px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 3px;
     color: #314A72;
+    position: absolute;
+    top: 0; 
+    left:0;
+    background: none;
 }
 
-.conteudo-principal-escrito-p1{
-    position: absolute;
-    width: 900px;
-    height: 0px;
-    left: 390px;
-    top: 170px;
-    font-family: 'Sora';
+.conteudo-principal-escrito-paragrafos{
+    font-family: 'Arial';
     font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 35px; 
     text-align: center;
     color: #2E2E2E;
-    line-height: 1.5;
-}
-
-ul{
-    display:flex;
-    flex-direction: column;
-    list-style-type: none;
-    position: absolute;
-    width: 406px;
-    height: 181px;
-    left: 632px;
-    top: 295px;
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 25px;
-
-    /* or 104% */
-    text-align: center;
-
-    color: #2E2E2E;
+    margin-left: 40px;
+    width: 60%;
 }
 
 .rodape{
     position: absolute;
-    height: 60px;
-    width:100%;
-    bottom:0;
+    bottom: 0;
+    width: 100%;
+    height: 60px; 
     display:flex;
     justify-content: center;
     background: rgba(48, 95, 170, 0.13);
-    border-top: 2px solid #D2D2D2;
-}
-
-.rodape-escrito{
+    border-top: 2px solid #D2D2D2;   
     font-family: 'Ubuntu';
     font-style: normal;
     font-size: 14px;
     line-height: 0px;
-    background: none;
-    padding: 28px;
+    padding: 28px; 
+} */
 
-}     
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&Arial');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: #E7ECF4;
+}
+
+.pagina{
+    position: relative;
+    min-height: 150%;
+ }
+
+.conteudo-principal{
+    padding-bottom: 60px;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.cabecalho{
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: rgba(48, 95, 170, 0.13);
+    border-bottom: 2px solid #D2D2D2;
+}
+
+.cabecalho-imagem-logo{
+    height: 70px;
+    background: none;
+}
+ 
+.cabecalho-menu {
+    display:flex;
+    gap: 110px;
+    padding: 25px;
+    background: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 0px;
+    
+}
+
+.cabecalho-menu-item-home{
+    color: #383737;
+}
+
+.cabecalho-menu-item-processo{
+    color: #383737;
+}
+
+.cabecalho-menu-item-projeto{
+    color: #383737;
+}
+
+.cabecalho-menu-item-quemsomos{
+    color: #383737;
+}
+
+.cabecalho-menu-item-fontes{
+    color: #383737;
+}
+
+
+
+.conteudo-principal-escrito-titulo{
+    display:flex;
+    padding: 30px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 3px;
+    color: #314A72;
+    position: absolute;
+    top: 0; 
+    left:0;
+    background: none;
+}
+
+.brasao-puc{
+    height:450px
+}
+
+.conteudo-principal-escrito-paragrafos{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 29px; 
+    text-align: center;
+    color: #2E2E2E;
+    margin-left: 40px;
+    width: 45%;
+}
+
+.conteudo-principal-escrito-botao{
+    color: #FFFFFF;
+    background: #2E6B7E;
+    border-radius: 10px;
+    display:block;
+    width: 120px;
+    height: 30px;
+    margin: 0 auto;
+} 
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #2e6b7eaf;
+    }
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; 
+    display:flex;
+    justify-content: center;
+    background: rgba(48, 95, 170, 0.13);
+    border-top: 2px solid #D2D2D2;   
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 0px;
+    padding: 28px; 
+    }

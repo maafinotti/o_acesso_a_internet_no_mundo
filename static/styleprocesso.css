@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&Arial');
 
 * {
     margin: 0;
@@ -6,18 +6,21 @@
     box-sizing: border-box;
     text-decoration: none;
     background: #E7ECF4;
-    height: 100%;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
+.pagina{
+    position: relative;
     min-height: 100%;
-}
+ }
 
-main{
+.conteudo-principal{
     padding:10px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
+    position: relative;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    align-items: center;
 }
 
 .cabecalho{
@@ -68,23 +71,46 @@ main{
     color: #383737;
 }
 
+.conteudo-principal-escrito-titulo{
+    display:flex;
+    justify-content: left;
+    padding: 30px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 3px;
+    color: #314A72;
+    top: 0; 
+    left:0;
+}
+
+.conteudo-principal-escrito-paragrafos{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 35px; 
+    text-align: justify;
+    color: #1B1B1B; 
+    margin: 0 auto;
+    width: 50%; 
+    justify-content: center;
+    
+}
+
 .rodape{
     position: absolute;
-    height: 60px;
-    width:100%;
-    bottom:0;
+    bottom: 0;
+    width: 100%;
+    height: 60px; 
     display:flex;
     justify-content: center;
     background: rgba(48, 95, 170, 0.13);
-    border-top: 2px solid #D2D2D2;
-}
-
-.rodape-escrito{
+    border-top: 2px solid #D2D2D2;   
     font-family: 'Ubuntu';
     font-style: normal;
     font-size: 14px;
     line-height: 0px;
-    background: none;
-    padding: 28px;
-
-}     
+    padding: 28px; 
+ }

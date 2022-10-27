@@ -27,6 +27,10 @@ def sobre():
 def fontes():
     return render_template('fontes.html')
 
+@app.route('/teste')
+def teste():
+    return render_template('teste.html')
+
 #colocar o site no ar
 if __name__ == '__main__':
     app.run(debug = True)
