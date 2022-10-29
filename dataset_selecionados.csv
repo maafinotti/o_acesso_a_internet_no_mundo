@@ -1,0 +1,21 @@
+abreviacao,pais,populacao,rank_populacao,qtd_planos_internet,1GB_preco_medio,1GB_mais_barato,1GB_mais_caro,usuarios_internet,PIB_per_capita,populacao_urbana_%,usuarios_internet_%,rank_usuarios,regiao,grupo_renda
+CHN,China,"1,425,873,641",1,36.0,0.52,0.3,1.21,"1,010,740,000",2425.471293,43.1,54.3,116,East Asia & Pacific,Upper middle income
+IND,India,"1,418,914,739",2,58.0,0.68,0.05,2.73,"833,710,000",786.7000981,29.54,34.45,145,South Asia,Lower middle income
+USA,United States,"338,573,477",3,45.0,3.33,1.0,30.0,"312,320,000",37491.17952,81.7,75.23,68,North America,High income
+IDN,Indonesia,"275,818,905",4,53.0,0.42,0.17,2.94,"196,000,000",1143.831514,51.46,32.29,150,East Asia & Pacific,Lower middle income
+PAK,Pakistan,"236,650,690",5,60.0,0.59,0.06,8.59,"118,800,000",668.547943,36.16,30.68,184,South Asia,Lower middle income
+NGA,Nigeria,"219,478,772",6,60.0,0.88,0.03,5.25,"136,203,231",544.5994767,48.36,27.51,161,Sub-Saharan Africa,Lower middle income
+BRA,Brazil,"215,488,926",7,58.0,0.92,0.18,2.72,"160,010,801",4699.411262,85.58,67.47,83,Latin America & Caribbean,Upper middle income
+BGD,Bangladesh,"171,505,314",8,60.0,0.34,0.11,2.22,"129,180,000",558.0628766,27.14,18.02,180,South Asia,Lower middle income
+MEX,Mexico,"127,676,342",10,45.0,3.62,1.2,12.06,"92,010,000",6105.280743,77.2,63.85,92,Latin America & Caribbean,Upper middle income
+JPN,Japan,"123,834,522",11,35.0,3.38,0.88,45.53,"117,400,000",39309.47886,66.48,90.87,23,East Asia & Pacific,High income
+ETH,Ethiopia,"123,938,711",12,3.0,1.71,1.41,4.17,"19,543,075",220.8912479,17.0,18.62,179,Sub-Saharan Africa,Low income
+PHL,Philippines,"115,879,327",13,30.0,1.77,0.95,8.21,"73,003,313",1383.401869,64.92,60.05,103,East Asia & Pacific,Lower middle income
+VNM,Vietnam,"98,310,514",16,46.0,0.49,0.07,5.55,"68,172,134",722.8075588,27.84,49.57,122,East Asia & Pacific,Lower middle income
+DEU,Germany,"83,349,397",19,60.0,3.38,0.35,11.83,"77,794,405",25306.18719,73.64,84.4,36,Europe & Central Asia,High income
+THA,Thailand,"71,717,410",20,60.0,1.06,0.34,10.32,"54,043,108",2712.517199,33.32,52.89,117,East Asia & Pacific,Upper middle income
+GBR,United Kingdom,"67,550,090",21,60.0,1.42,0.11,71.29,"65,001,016",28033.48928,89.94,94.62,18,Europe & Central Asia,High income
+TZA,Tanzania,"65,841,526",22,60.0,0.75,0.28,4.31,"30,000,000",456.3857117,25.52,16.0,182,Sub-Saharan Africa,Lower middle income
+FRA,France,"64,650,285",23,45.0,0.41,0.09,118.2,"59,470,000",22878.46657,77.36,80.5,50,Europe & Central Asia,High income
+ZAF,South Africa,"59,982,549",24,60.0,2.67,0.12,34.95,"31,858,027",3745.649852,60.74,56.17,111,Sub-Saharan Africa,Upper middle income
+ITA,Italy,"59,008,050",25,29.0,0.27,0.09,3.54,"50,540,000",18982.26929,68.08,61.3,98,Europe & Central Asia,High income
