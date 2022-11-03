@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&Arial');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&Arial&Vogue');
 
 * {
     margin: 0;
@@ -70,15 +70,13 @@
     color: #383737;
 }
 
-
-
 .conteudo-principal-titulo{
     display:flex;
     padding: 30px;
-    font-family: 'Ubuntu';
+    font-family: 'Vogue';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 3px;
     color: #314A72;
     position: absolute;

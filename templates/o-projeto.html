@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
     <title>O Projeto</title>
     <link rel="stylesheet" href="{{ url_for('static', filename= 'styleprojeto.css') }}">
+
 </head>
 <body>
     <div class="pagina">
@@ -29,49 +30,201 @@
                     <div class="conteudo-principal-escrito-paragrafos">
                         <p class='p1'> 
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;O processo para realização desse projeto se iniciou quando criamos um arquivo no Google Docs com 
-                            o intuito de nos organizarmos e colocarmos todas as nossas ideias do que seria legal e o que 
-                            agregaria para o trabalho. Dessa forma, cada um contribuiu com ideias, pesquisas, links e portais, 
-                            assim ficou mais fácil visualizar nosso ponto de partida.
+                            &emsp;&emsp;&emsp;Se você está lendo este artigo, é porque tem acesso à Internet. 
+                            Mas o que não pensamos é que existe uma parte da população mundial que não tem acesso a essa
+                            tecnologia que está presente em grande parte da nossa vida, facilitando inúmeras atividades 
+                            do nosso dia a dia. Por muitas vezes ignoramos e nem fazemos esforço para saber o porquê e 
+                            os fatores que influenciam essa questão. Assim, o nosso objetivo é, nas próximas linhas, 
+                            apresentar causas, consequências e uma análise do problema em questão.
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;Procurar Datasets que apresentavam informações pertinentes foi o primeiro desafio, pois há muitos 
-                            datasets com conteúdos irrelevantes ou inúteis para o que nós queríamos apresentar no nosso projeto.
+                            &emsp;&emsp;&emsp;Obs.: todos os gráficos utilizados são autorais, utilizando como 
+                            base alguns Datasets disponibilizados em <a class ="paragrafo-fonte" href="{{ url_for('fontes') }}"><em>Fontes</em></a>.
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;Após muitas pesquisas, sites analisados e debates entre o grupo, selecionamos 5 Datasets 
-                            (disponibilizados em Fontes). Porém, para começar a fazer os gráficos foi preciso juntar os 5 
-                            arquivos e depois tratar para que ficassem apenas informações importantes para execução dos gráficos.
+                            &emsp;&emsp;&emsp;No dia 27 de abril de 2021, a ONU (Organização das Nações Unidas) 
+                            realizou uma Assembleia Geral com o objetivo de gerar compromissos políticos para abordar 
+                            a crescente exclusão digital, unindo os esforços de recuperação da pandemia e o impulso 
+                            para alcançar os Objetivos de Desenvolvimento Sustentável (ODS) até o final da década. 
+                            De acordo com eles, 3,7 bilhões de pessoas ainda estão offline. Esse fato contribui com 
+                            o desemprego (já que grande parte dos trabalhos requerem acesso à Internet e computadores), 
+                            isolamento social e barreiras para a educação, acentuando diferenças sociais.
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;E esse foi o nosso maior desafio, precisamos excluir dados desnecessários, transformar dados object 
-                            para int ou float, para que fosse possível fazer os gráficos e análises estatísticas.
+                            &emsp;&emsp;&emsp;Essa desigualdade atribui-se, principalmente, às diferenças 
+                            socioeconômicas entre as pessoas e os países, pois a digitalização exige investimentos e 
+                            infraestruturas muito caras para as regiões menos desenvolvidas ou as áreas rurais. Além 
+                            disso, baixos níveis de alfabetização, restrições geográficas, falta de motivação para o 
+                            uso da tecnologia e analfabetismo digital contribuem para a infoexclusão.
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;O próximo passo foram os gráficos, decidimos os critérios e as variáveis para produção desses, como 
-                            “População por país” e “Usuários de internet (%) por país”, de acordo com os dados que o nosso 
-                            Dataset tratado apresentava. Depois escolhemos qual seria a formatação do gráfico (linha, barra, 
-                            dispersão). Utilizamos Python para realização desses e bibliotecas como Matplotlib e Seaborn 
-                            (visualização dos códigos no link do GitHub).
+                            &emsp;&emsp;&emsp;Lúcia Mury Scalco, antropóloga e pesquisadora, diz que a exclusão
+                            digital se dá em três níveis:
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;Para o mapa coroplético, foi necessário uma atenção a mais, pois ao juntar os datasets com o 
-                            arquivo em Geojson, que contém a geometria dos países, alguns foram excluídos por apresentarem 
-                            um nome diferente (um acento ou forma de escrever) e, assim, nosso mapa ficou falhado, com alguns 
-                            espaços em branco. Dessa forma, precisamos adicionar alguns dados manualmente no nosso dataset, 
-                            principalmente aqueles que ficam mais visíveis no mapa, um exemplo foi a Rússia.
+                            &emsp;&emsp;&emsp;&emsp;1) Acesso aos equipamentos, pois são
+                            caros;
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;Quando todos os gráficos ficaram prontos, fizemos uma análise de cada um. Criamos insights e 
-                            relacionamos com informações econômicas e sociais dos países para dar credibilidade para o nosso
-                            projeto.
+                            &emsp;&emsp;&emsp;&emsp;2) Sinal da Internet, que não chega à
+                            todos os locais (levando à questão de infraestrutura);
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;Quando esses insights foram finalizados, começamos a preparar nosso site, fizemos o design no Figma 
-                            e utilizamos o framework Flask para linkar o HTML e CSS e criar nosso site “Internet Access In The 
-                            World”.
+                            &emsp;&emsp;&emsp;&emsp;3) Baixo conhecimento.
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;E por fim, colocamos os arquivos no GitHub e organizamos os últimos detalhes como design do site, 
-                            editar fontes, cores.
+                            &emsp;&emsp;&emsp;Para analisar como a exclusão digital se comporta no mundo atual, 
+                            o grupo analisou dados de 7 regiões e 163 países do mundo, com foco nos 20 países mais
+                            populosos do globo. 
+                            <br>
+                            &emsp;&emsp;&emsp;Para começar essa análise gráfica, é preciso ter conhecimento 
+                            básico de dados, como a população de cada país que foi analisado (imagem 1), assim como a
+                            média da população por região (imagem 2).
+                            <br>
+                            <h6>Imagem 1</h6>
+                            <img class="foto-g" src="static\img\populacao_pais.png" alt="Gráfico da população">
+                            <br>
+                            <h6>Imagem 2</h6>
+                            <img class="foto-g" src="static\img\populacao_regiao.png" alt="Gráfico da população por região">
+                            &emsp;&emsp;&emsp;O primeiro gráfico nos mostra a população dos 20 países que foram 
+                            analisados pelo grupo. Nele, a China é o país com mais habitantes (1.426 bi), sendo o país 
+                            mais populoso do mundo. E o país com menos habitantes, Itália (59 mi).
+                            <br>
+                            &emsp;&emsp;&emsp;Podemos ter uma visão global da população com o mapa abaixo (imagem 3): 
+                            <h6>Imagem 3</h6>
+                            <img class="foto-g" src="static\img\populacao_mapa.png" alt="Mapa da população">
+                            &emsp;&emsp;&emsp;Em relação à renda (imagem 4), dos 20 países analisados, 6 se encontram no 
+                            grupo de renda alta (Japão, França, Reino Unido, Alemanha, Itália e Estados Unidos), 5 no de 
+                            renda média alta (Brasil, México, África do Sul, Tailândia e China), 8 no de renda média
+                            baixa (Nigéria, Bangladesh, Filipinas, Vietnã, Indonésia, Tanzânia, Índia e Paquistão) e
+                            1 no de renda baixa (Etiópia).
+                            <h6>Imagem 4</h6>
+                            <img class="foto-g" src="static\img\pais_renda.png" alt="Gráfico da população por grupo de renda">
+                            &emsp;&emsp;&emsp;Se levarmos em conta todos os 163 países do dataset, pouco mais da metade 
+                            se encontra no grupo de alta renda (com 57 países). Os de renda média alta e baixa 
+                            apresentam 43 países cada e os de renda baixa, 20.
+                            <br>
+                            &emsp;&emsp;&emsp;Começando a analisar fatores de relevância para o desenvolvimento de 
+                            cada país, temos o PIB. Para contextualizar, o PIB (Produto Interno Bruto) é a soma de todos 
+                            os bens de um país, e quanto maior o PIB, mais desenvolvido esse país é. Já o PIB per 
+                            capita é o Produto Interno Bruto, dividido pela quantidade de habitantes em determinado país.
+                            <br>
+                            &emsp;&emsp;&emsp;Assim, ao passo em que o PIB per capita dos países aumenta, a porcentagem 
+                            de usuários conectados à internet é maior (imagem 5). Isso acontece pois, quanto maior a 
+                            renda de um país, maior serão os investimentos em pesquisa e tecnologia.  
+                            <h6>Imagem 5</h6>
+                            <img class="foto-g" src="static\img\usuarios_pib.png" alt="Gráfico da quantidade de usuários conectados à internet pelo pib per capita">
+                            &emsp;&emsp;&emsp;Dos 20 países que estão sendo analisados (imagem 6), podemos ver que o país
+                            com maior PIB é o Japão (onde o mercado da tecnologia é referência) e com menor é a Etiópia 
+                            (que apresenta, inclusive, poucos usuários conectados à Internet, como iremos mostrar nos 
+                            próximos parágrafos).
+                            <h6>Imagem 6</h6>
+                            <img class="foto-g" src="static\img\pib_pais.png" alt="Gráfico do PIB per capita por país">
+                            &emsp;&emsp;&emsp;A maioria dos países localizados no hemisfério Norte são caracterizados 
+                            por um PIB elevado (imagem 7),  com o grau de industrialização elevado e uma economia mais 
+                            desenvolvida, predominando o setor terciário (de atividades do comércio) e o quaternário 
+                            (geração e compartilhamento de informações), e tendem a ter uma maior porcentagem de usuários 
+                            conectados à internet. Nesses países, a distribuição de renda é, geralmente, uniforme, além 
+                            do IDH (Índice de Desenvolvimento Humano) ser mais elevado, apresentando boa qualidade de
+                            vida, alta renda e grau de escolaridade e baixas taxas de mortalidade e natalidade.
+                            <h6>Imagem 7</h6>
+                            <img class="foto-g" src="static\img\pib_regiao.png" alt="Gráfico do PIB per capita por região">
+                            &emsp;&emsp;&emsp;Para uma visão mais global do PIB per capita, temos o mapa abaixo (imagem 8):
+                            <h6>Imagem 8</h6>
+                            <img class="foto-g" src="static\img\pib_mapa.png" alt="Mapa do PIB per capita">
+                            &emsp;&emsp;&emsp;As regiões com maior acesso à Internet (imagem 9) também são as regiões do 
+                            hemisfério Norte, entre elas a América do Norte, Europa e Ásia central.
+                            <h6>Imagem 9</h6>
+                            <img class="foto-g" src="static\img\usuarios_regiao.png" alt="Gráfico da quantidade de usuários de internet por região">
+                            &emsp;&emsp;&emsp;Também podemos observar de acordo com os continentes (imagem 10):
+                            <h6>Imagem 10</h6>
+                            <img class="foto-g" src="static\img\usuarios_continente.png" alt="Gráfico da quantidade de usuários de internet por continente">
+                            &emsp;&emsp;&emsp;Isso acontece pois são regiões caracterizadas por um PIB elevado, o que 
+                            facilita investimentos em tecnologia e alfabetização digital. Enquanto isso, regiões em 
+                            desenvolvimento como a Sul da África e a África Subsaariana tem um baixo índice de acesso 
+                            digital, com 32% e 22% da sua população, respectivamente. Essa diferença no acesso colabora 
+                            ainda mais com as diferenças sociais e econômicas existentes no globo. 
+                            <br>
+                            &emsp;&emsp;&emsp;Em relação aos países analisados (imagem 11), o país com maior número de 
+                            usuários conectados à internet é o Reino Unido, seguido do Japão e Alemanha. Já o com menor 
+                            número é a Tanzânia, seguida de Bangladesh e Etiópia (país dito, anteriormente, que possuía 
+                            o menor PIB).
+                            <h6>Imagem 11</h6>
+                            <img class="foto-g" src="static\img\usuarios_pais.png" alt="Gráfico da quantidade de usuários de internet por país">
+                            &emsp;&emsp;&emsp;De forma geral e global, a média de usuários conectados à internet é de
+                            54,54%. Para termos uma visualização geral no globo (imagem 12):
+                            <h6>Imagem 12</h6>
+                            <img class="foto-g" src="static\img\usuarios_mapa.png" alt="Mapa de usuários conectados à internet">
+                            &emsp;&emsp;&emsp;Já os dados de pessoas com celulares são um pouco mais igualitários. Os 
+                            celulares começaram a se popularizar a partir dos anos 2000 e hoje regiões (imagem 13) como 
+                            Ásia e América Latina possuem mais celulares do que a América do Norte, onde o crescimento 
+                            aconteceu mais rapidamente no início. O país com o maior número de celulares (imagem 14) é a 
+                            Tailândia, com 1,6 celular por pessoa; enquanto na Etiópia, a cada 100 pessoas, apenas 38 
+                            possuem um dispositivo móvel. Podemos ver no gráfico em relação à alguns dos países 
+                            analisados e às regiões abaixo:
+                            <h6>Imagem 13</h6>
+                            <img class="foto-g" src="static\img\telefone_regiao.png" alt="Gráfico de planos telefônicos por região">
+                            <h6>Imagem 14</h6>
+                            <img class="foto-g" src="static\img\telefone_pais.png" alt="Gráfico de planos telefônicos por região">
+                            &emsp;&emsp;&emsp;Outro ponto a ser analisado é o preço da internet nesses países. 
+                            <br>
+                            &emsp;&emsp;&emsp;O preço da internet (imagem 15) na América do Norte, região com a Internet
+                            mais cara do mundo, é quase duas vezes maior do que o segundo colocado no gráfico, África 
+                            sub-saariana.
+                            <h6>Imagem 15</h6>
+                            <img class="foto-g" src="static\img\internet_regiao.png" alt="Gráfico da média de preço da internet por região">
+                            &emsp;&emsp;&emsp;Isso acontece graças à sua desatualizada estrutura de Internet, assim como 
+                            a falta de competitividade entre as empresas que fornecem o serviço. Para tentar melhorar 
+                            essa realidade, em agosto de 2021, o senado dos EUA aprovou a Lei de Investimentos e Empregos 
+                            em Infraestrutura, que inclui US $65 bilhões para expandir o acesso à Internet de alta 
+                            velocidade. A legislação introduz políticas que visam incentivar a concorrência entre os 
+                            provedores, aumentar a transparência sobre preços e atualizar a infraestrutura de banda 
+                            larga.
+                            <br>
+                            &emsp;&emsp;&emsp;O menor preço médio da internet é localizado no sul da Ásia, com U$0,96. 
+                            Em contrapartida com a América do Norte, o preço baixo é resultado da alta competitividade
+                            entre essas empresas. O problema é que seu custo é tão baixo que as operadoras não conseguem
+                            investir em cobertura de rede, qualidade e novas tecnologias. 
+                            <br>
+                            &emsp;&emsp;&emsp;No entanto, a quantidade de usuários de internet no geral não é influenciada
+                            pelo preço médio de 1GB (imagem 16). A maioria dos países tende a ter um preço parecido, que varia entre 
+                            0,10 e 10 dólares. A Guiné Equatorial é o país que mais se distancia desse padrão tendo 26,24%
+                            da sua população com acesso à internet e preço médio de 1GB de U$ 49,67. 
+                            <h6>Imagem 16</h6>
+                            <img class="foto-g" src="static\img\internet_preco.png" alt="Gráfico da quantidade de usuários conectados à internet pelo preço médio da internet">
+                            &emsp;&emsp;&emsp;Em relação aos países mais populosos do globo (imagem 17), o preço médio 
+                            da Internet de 1GB no México é o mais caro (com U$3,62) e a Itália, o mais barato (com U$0.27).
+                            <h6>Imagem 17</h6>
+                            <img class="foto-g" src="static\img\internet_pais.png" alt="Gráfico da média de preço da internet por país">
+                            &emsp;&emsp;&emsp;A partir de todos esses dados, podemos concluir que a desigualdade digital 
+                            ainda é um problema que precisa ser enfrentado. Apesar dos esforços e investimentos, a 
+                            desigualdade afeta muitas nações e apresenta padrões geográficos.
+                            <br>
+                            &emsp;&emsp;&emsp;É perceptível que grande parte dos países que estão localizados na América
+                            do Norte, Europa e Ásia Central, estão no grupo de alta renda, tendem a ter PIB per capita 
+                            maior e apresentam uma quantidade de usuários conectados à Internet maior. 
+                            <br>
+                            &emsp;&emsp;&emsp;Já países que estão localizados na Ásia, África e América Latina, estão no
+                            grupo de renda média alta (maioria da América Latina), renda média baixa e renda baixa, 
+                            tendem a ter PIB per capita maior e apresentam uma quantidade de usuários conectados à 
+                            Internet menor.
+                            <br>
+                            &emsp;&emsp;&emsp;Além desses fatores, há os planos telefônicos e os valores médios de 1GB 
+                            de Internet, que acabam não afetando de forma significativa, como os outros, mas que são 
+                            importantes para termos uma visão ampla de que há países com diversos planos telefônicos
+                            mas não apresentam muitos usuários conectados à Internet. Assim como os valores de 1GB que
+                            variam de uma forma muito grande, não seguindo um padrão.
+                            <br>
+                            &emsp;&emsp;&emsp;Ou seja, os países mais afetados acabam sendo países com menos 
+                            infraestrutura para o acesso livre à Internet.
+                            <br>
+                            &emsp;&emsp;&emsp;O acesso à Internet deveria ser para todos. A tecnologia está dominando 
+                            o mundo em que vivemos atualmente. Seria um cenário preocupante se países menos desenvolvidos
+                            e com menos infraestrutura não investissem, pelo menos, no acesso à tecnologia. Estes, 
+                            ficariam muito atrasados em relação aos outros países, afetando diversos outros fatores, 
+                            como o acesso à saúde que, hoje, apresenta tecnologias incríveis para tratamentos de doenças 
+                            e cirurgias.
+
                         </p>
                     </div>
                 </div>
             </section>
 
         </main>
+
+        <a class="topo" href="#">&#9650;</a>
 
         <footer class="rodape"><span style="color: #314A72; background:none">INTERNET</span>&nbsp ACCES IN THE <span style="color: #314A72; background:none">&nbsp WORLD</span></footer>
 

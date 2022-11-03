@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&Arial');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&Arial&Vogue');
 
 * {
     margin: 0;
@@ -70,10 +70,10 @@
     display:flex;
     justify-content: left;
     padding: 30px;
-    font-family: 'Ubuntu';
+    font-family: 'Vogue';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 3px;
     color: #314A72;
     top: 0; 
@@ -86,11 +86,15 @@
     font-weight: 100;
     font-size: 18px;
     line-height: 35px; 
-    text-align: justify;
+    text-align: left;
     color: #1B1B1B; 
     margin: 0 auto;
     width: 50%; 
     justify-content: center;    
+}
+
+.fontes{
+    color:#2b65c4
 }
 
 .rodape{

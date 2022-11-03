@@ -28,28 +28,29 @@
                     <div class="conteudo-principal-escrito-paragrafos">
                         <p class='p1'> 
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;O processo para realização desse projeto se iniciou quando 
+                            &emsp;&emsp;&emsp;O processo para realização desse projeto se iniciou quando 
                             criamos um arquivo no Google Docs com o intuito de nos organizarmos e colocarmos todas 
                             as nossas ideias do que seria legal e o que agregaria para o trabalho. Dessa forma, 
                             cada um contribuiu com ideias, pesquisas, links e portais, assim ficou mais fácil
                             visualizar nosso ponto de partida.
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;Procurar Datasets que apresentavam informações pertinentes 
+                            &emsp;&emsp;&emsp;Procurar Datasets que apresentavam informações pertinentes 
                             foi o primeiro desafio, pois há muitos datasets com conteúdos irrelevantes ou inúteis 
                             para o que nós queríamos apresentar no nosso projeto.
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;Após muitas pesquisas, sites analisados e debates entre o 
-                            grupo, selecionamos 5 Datasets (disponibilizados em Fontes). Porém, para começar a fazer 
+                            &emsp;&emsp;&emsp;Após muitas pesquisas, sites analisados e debates entre o 
+                            grupo, selecionamos 5 Datasets (disponibilizados em <a class ="paragrafo-fonte" 
+                            href="{{ url_for('fontes') }}"><em>Fontes</em></a>). Porém, para começar a fazer 
                             os gráficos foi preciso juntar os 5 arquivos e depois tratar para que ficassem apenas 
                             informações importantes para execução dos gráficos.
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;E esse foi o nosso maior desafio, precisamos excluir dados 
+                            &emsp;&emsp;&emsp;E esse foi o nosso maior desafio, precisamos excluir dados 
                             desnecessários, transformar dados object para int ou float, para que fosse possível fazer 
                             os gráficos e análises estatísticas. Essa é uma parte do nosso Dataset já tratado:
                             <br>
                             <img class="foto-dataset" src="static\img\foto-dataset.png" alt="Foto do Dataset">
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;O próximo passo foram os gráficos, decidimos os critérios e as 
+                            &emsp;&emsp;&emsp;O próximo passo foram os gráficos, decidimos os critérios e as 
                             variáveis para produção desses, como “População por país” e “Usuários de internet (%) por
                             país”, de acordo com os dados que o nosso Dataset tratado apresentava. Depois escolhemos 
                             qual seria a formatação do gráfico (linha, barra, dispersão). Utilizamos Python para 
@@ -61,8 +62,9 @@
                             <img class="foto-codigo2" src="static\img\foto-codigo2.png" alt="Foto do código do gráfico de dispersão">
                             <h6>Código do Gráfico de Linhas:</h6>
                             <img class="foto-codigo3" src="static\img\foto-codigo3.png" alt="Foto do código do gráfico de linhas">
-                            <h6>(visualização de todos os códigos no link do GitHub)</h6>
-                            &nbsp; &nbsp; &nbsp; &nbsp;Para o mapa coroplético, foi necessário uma atenção a mais,
+                            <h6>(visualização de todos os códigos no link do <a class ="paragrafo-fonte" 
+                            href="https://github.com/maafinotti/O-Acesso-a-Internet-no-Mundo" target = "_blank"><em>GitHub</em></a>)</h6>
+                            &emsp;&emsp;&emsp;Para o mapa coroplético, foi necessário uma atenção a mais,
                             pois ao juntar os datasets com o arquivo em Geojson, que contém a geometria dos países, 
                             alguns foram excluídos por apresentarem um nome diferente (um acento ou forma de escrever) 
                             e, assim, nosso mapa ficou falhado, com alguns espaços em branco. Dessa forma, precisamos 
@@ -72,22 +74,25 @@
                             <h6>Código do Mapa Coroplético:</h6>
                             <img class="foto-codigo4" src="static\img\foto-codigo4.png" alt="Foto do código do mapa coroplético">
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;Quando todos os gráficos ficaram prontos, fizemos uma análise 
+                            &emsp;&emsp;&emsp;Quando todos os gráficos ficaram prontos, fizemos uma análise 
                             de cada um. Criamos insights e relacionamos com informações econômicas e sociais dos 
                             países para dar credibilidade para o nosso projeto.
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;Quando esses insights foram finalizados, começamos a preparar
+                            &emsp;&emsp;&emsp;Quando esses insights foram finalizados, começamos a preparar
                             nosso site, fizemos o design no Figma e utilizamos o framework Flask para linkar o HTML 
                             e CSS e criar nosso site “Internet Access In The World”.
                             <br>
-                            &nbsp; &nbsp; &nbsp; &nbsp;E por fim, colocamos os arquivos no GitHub e organizamos os
-                            últimos detalhes como design do site, editar fontes, cores.
+                            &emsp;&emsp;&emsp;E por fim, colocamos os arquivos no <a class ="paragrafo-fonte" 
+                            href="https://github.com/maafinotti/O-Acesso-a-Internet-no-Mundo" target = "_blank"><em>GitHub</em></a>
+                            e organizamos os últimos detalhes como design do site, editar fontes, cores.
                         </p>
                     </div>
                 </div>
             </section>
 
         </main>
+
+        <a class="topo" href="#">&#9650;</a>
 
         <footer class="rodape"><span style="color: #314A72; background:none">INTERNET</span>&nbsp ACCES IN THE <span style="color: #314A72; background:none">&nbsp WORLD</span></footer>
     </div>

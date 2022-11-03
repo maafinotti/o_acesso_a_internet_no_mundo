@@ -5,7 +5,9 @@ app = Flask(__name__)
 #criar a primeira página no site
 #route --> caminho para acessar a página
 #função -->  que você quer exibir naquela página
-#template
+#templates --> html
+#static --> css e imagens
+
 
 @app.route('/')
 def homepage():
