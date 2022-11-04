@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     background: #E7ECF4;
+    scroll-behavior: smooth;
 }
 
 .pagina{
@@ -96,6 +97,25 @@
 .fontes{
     color:#2b65c4
 }
+
+.icone{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.topo{
+    text-decoration: none;
+    color: #314A72;
+    padding: 20px;
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+    z-index: 3;
+    background:none;
+    font-size: 20px;
+ }
 
 .rodape{
     position: absolute;

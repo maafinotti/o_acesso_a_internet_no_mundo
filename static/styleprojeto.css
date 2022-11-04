@@ -6,23 +6,12 @@
     box-sizing: border-box;
     text-decoration: none;
     background: #E7ECF4;
+    scroll-behavior: smooth;
 }
 
 .pagina{
     position: relative;
     min-height: 100%;
- }
-
- .topo{
-    text-decoration: none;
-    color: #314A72;
-    padding: 20px;
-    position: fixed;
-    right:20px;
-    bottom: 20px;
-    z-index: 3;
-    background:none;
-    font-size: 20px;
  }
 
 .conteudo-principal{
@@ -128,9 +117,59 @@
     color:#2b65c4
 }
 
-.foto-g{
-    width: 100%;
+.foto-gp{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
+
+.foto-gr{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.foto-gm{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.foto-gd{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.foto-gl{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.foto-glp{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.topo{
+    text-decoration: none;
+    color: #314A72;
+    padding: 20px;
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+    z-index: 3;
+    background:none;
+    font-size: 20px;
+ }
 
 .rodape{
     position: absolute;

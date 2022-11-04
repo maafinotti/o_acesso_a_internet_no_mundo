@@ -14,7 +14,7 @@
  }
 
 .conteudo-principal{
-    padding-bottom: 60px;
+    padding: 20px;
     position: relative;
     display:flex;
     flex-direction: row;
@@ -70,8 +70,6 @@
     color: #383737;
 }
 
-
-
 .conteudo-principal-escrito-titulo{
     display:flex;
     padding: 30px;
@@ -102,20 +100,6 @@
     margin-left: 40px;
     width: 45%;
 }
-
-.conteudo-principal-escrito-botao{
-    color: #FFFFFF;
-    background: #2E6B7E;
-    border-radius: 10px;
-    display:block;
-    width: 120px;
-    height: 30px;
-    margin: 0 auto;
-} 
-
-.conteudo-principal-escrito-botao:hover {
-    background-color: #2e6b7eaf;
-    }
 
 .rodape{
     position: absolute;
