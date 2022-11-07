@@ -11,7 +11,7 @@
     <div class="pagina">
         <header class="cabecalho">
             <link rel="shortcut icon" href="static\img\logo.svg" >
-            <img class="cabecalho-imagem-logo" src="static\img\logo.svg" alt="Logo do Site">
+            <a class="cabecalho-imagem-logo" href="{{ url_for('homepage') }}"><img class="cabecalho-imagem-logo" src="static\img\logo.svg" alt="Logo do Site"></a>
             <nav class="cabecalho-menu">
                 <a class="cabecalho-menu-item-home" href="{{ url_for('homepage') }}">Home</a>
                 <a class="cabecalho-menu-item-projeto" href="{{ url_for('projeto') }}">O Projeto</a>
@@ -24,7 +24,7 @@
 
         <main>
             <section class="conteudo-principal">
-                <h1 class="conteudo-principal-titulo">Home</h1>
+                <h1 class="conteudo-principal-titulo">O Acesso à Internet No Mundo</h1>
                 <img class="conteudo-principal-icone" src="static\img\icone.svg" alt="Ícone do Site">
                 <div class="conteudo-principal-escrito-paragrafos">
                     <p class="p1">
