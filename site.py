@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import os
 
 app = Flask(__name__)
 
@@ -34,5 +35,6 @@ def teste():
     return render_template('teste.html')
 
 #colocar o site no ar
-if __name__ == '__main__':
-    app.run(debug = True)
+if __name__ == 'main':
+    port = int(os.getenv('PORT'), '5000')
+    app.run(host = '0.0.0.0', port = port)
