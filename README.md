@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/maafinotti/O-Acesso-a-Internet-no-Mundo/blob/main/static/img/icone.svg">
+  <img src="https://github.com/maafinotti/O-Acesso-a-Internet-no-Mundo/blob/main/static/img/icone.svg" width="100" height="100">
 </p>
 
 <h1 align="center">O Acesso à Internet no Mundo</h1>
