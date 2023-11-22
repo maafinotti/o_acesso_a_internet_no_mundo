@@ -14,6 +14,7 @@
 - [Ana Beatriz Farah Alves](https://github.com/biaafarah)
 - Manoela Ferreira Finotti
 - [Melissa Assis da Silva](https://github.com/melassiss)
+- Vinícius Ferreira
   
 ### :books: Sobre
 Este projeto foi realizado por um grupo de alunas da PUC-SP, para a entrega do projeto final do segundo semestre de **Ciência de Dados e Inteliência Artificial**.
